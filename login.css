@@ -6,9 +6,15 @@
 } */
 body{
     font-family: Nunito, sans-serif;
+    background-color: rgb(101, 101, 117)
 
 }
 .group a{
     text-decoration: none;
+    color: black;
     
+}
+
+.group a:hover{
+    text-decoration: underline;
 }
