@@ -21,8 +21,8 @@
         $results = mysqli_query($connect, $selectBooks);
     ?>
 
-    <div class="container mt-4" id="taz">
-        <table id="tak" class="table table-dark table-hover m-auto">
+    <div class="container mt-4">
+        <table class="table table-dark table-hover m-auto">
             <tr>
                 <th>Seller Email</th>
                 <th>Book Name</th>

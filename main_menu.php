@@ -15,7 +15,7 @@ $password = $_SESSION['password'];
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="selling.php">Selling</a>
         </li>
@@ -27,24 +27,30 @@ $password = $_SESSION['password'];
         </li>
 
       </ul>
-      <form class="d-flex forms" action="#">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <div class="row m-auto">
+        <div class="col-lg-12 col-md-6 col-sm-6">
+          <form class="d-flex forms" action="search_results.php" method="post">
+            <input class="form-control" type="search" name="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+        </div>
+      </div>
+      <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="cart_view.php">
+            <img src="pictures/shoppingcart.png" width="25" height="20">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.php">Profile</a>
+        </li>
+      </ul>
     </div>
-    <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="cart_view.php">
-          <img src="pictures/shoppingcart.png" width="25" height="20">
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Logout</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="profile.php">Profile</a>
-      </li>
-    </ul>
+    
   </div>
 </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
