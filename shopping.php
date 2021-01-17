@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Shopping</title>
-</head>
-
-<body>
     <?php
     include("main_menu.php");
     include("global.php");
     ?>
+</head>
+
+<body>
 
     <?php
         $connect = mysqli_connect("localhost", "root", $dbPass);
@@ -19,8 +19,8 @@
         $results = mysqli_query($connect, $selectBooks);
     ?>
 
-    <div class="container mt-4">
-        <table id="tab" class="table table-dark table-hover m-auto">
+    <div class="container mt-4" id="tas">
+        <table class="table table-dark table-hover m-auto">
             <tr>
                 <th>Email</th>
                 <th>Book Name</th>
