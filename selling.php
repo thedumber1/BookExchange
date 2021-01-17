@@ -14,7 +14,6 @@
 
 	<div class="container">
 		<form action="sellingInsert.php" enctype="multipart/form-data" method="post" id="test">
-			<div class="justify-content-end">
 			<div class="row justify-content-end">
 				<div class="col-6">
 					<div class="mb-3">
@@ -56,7 +55,6 @@
 				<div class="col-6">
 					<button type="submit" class="btn btn-primary btn-md">Submit</button>
 				</div>
-			</div>
 			</div>
 			
 		</form>
