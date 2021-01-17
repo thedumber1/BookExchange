@@ -1,17 +1,21 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Main Page</title>
+    <meta charset="utf-8">
+    <title>Main Page</title>
 </head>
 
 <body>
     <?php
-        include("main_menu.php");
+    include("main_menu.php");
     ?>
 
-    <p align="center">
-        <img src="books1.jpg" width=800 height=500>
-    </p>
+    <div class="container">
+        <div class="row">
+            <img class="img-fluid mt-2 mx-auto w-75" src="Pictures/books1.jpg">
+        </div>
+    </div>
 </body>
+
 </html>
