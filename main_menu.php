@@ -34,7 +34,7 @@
     <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
             <a class="nav-link" href="cart_view.php">
-                <img src="Pictures/shoppingcart.png" width="25" height="20">
+                <img src="pictures/shoppingcart.png" width="25" height="20">
             </a>
         </li>
         <li class="nav-item">
