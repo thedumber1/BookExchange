@@ -1,11 +1,11 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link href="main.css" type="text/css" rel="stylesheet"/>
+<link href="main.css" type="text/css" rel="stylesheet" />
 
 <?php
-    session_start();
-    $email = $_SESSION['email'];
-    $password = $_SESSION['password'];
+session_start();
+$email = $_SESSION['email'];
+$password = $_SESSION['password'];
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -25,59 +25,26 @@
         <li class="nav-item">
           <a class="nav-link" href="mybooks.php">My Books</a>
         </li>
-        
-        <form class="d-flex forms" action="#">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </ul>
-    <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-            <a class="nav-link" href="cart_view.php">
-                <img src="pictures/shoppingcart.png" width="25" height="20">
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Logout</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="profile.php">Profile</a>
-        </li>
-    </ul>
+
+      </ul>
+      <form class="d-flex forms" action="#">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
+    <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="cart_view.php">
+          <img src="pictures/shoppingcart.png" width="25" height="20">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Logout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profile.php">Profile</a>
+      </li>
+    </ul>
   </div>
 </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-<!-- <ul class="ul_css">
-    <li class="li_css">
-        <a class="li_css_a" href="shopping.php">Shopping</a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="selling.php">Selling</a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="mybooks.php">My Books</a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="profile.php">Profile</a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="email.php">
-            <?php
-                print $_SESSION['email'];
-            ?>
-        </a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="search.php">Search</a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="cart_view.php">
-            <img src="shoppingcart.png" width="25" height="20">
-        </a>
-    </li>
-    <li class="li_css">
-        <a class="li_css_a" href="login.html">Logout</a>
-    </li>            
-</ul> -->
