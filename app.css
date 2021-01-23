@@ -9,6 +9,14 @@ body{
     color: aliceblue;
     margin-bottom: 1em;
 }
+.container-round{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.container-round img{
+    border-radius: 20px;
+}
 .logo{
     text-align: center;
     font-size: 36px;
@@ -71,3 +79,39 @@ button:hover{
 .login-anchor:hover{
     color: #1d1ddb;
 }
+
+.navbar{
+    background-color:  #172c4b;
+}
+
+.ul_css{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li_css_a{
+    display: block;
+    /* color: #FF0; */
+    color: aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_css_a img{
+    width: 25px;
+    height: 20px;
+}
+.round{
+    border-radius: 10px;
+}
+
+.li_css{
+    /* border-right: 1px solid #0F6; */
+}
+
+
+

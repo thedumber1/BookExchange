@@ -10,8 +10,11 @@
         include("main_menu.php");
     ?>
 
+    <div class="container-round">
+        <img src="pictures/books1.jpg">
+
+    </div>
     <p align="center">
-        <img src="books1.jpg" width=800 height=500>
     </p>
 </body>
 </html>
