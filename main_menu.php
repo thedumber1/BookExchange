@@ -1,4 +1,4 @@
-<link href="main.css" type="text/css" rel="stylesheet"/>
+<link href="app.css" type="text/css" rel="stylesheet"/>
 
 <?php
     session_start();

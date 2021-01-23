@@ -3,46 +3,60 @@
 <head>
 <meta charset="utf-8">
 <title>Book Exchange Login</title>
-<link href="login.css" type="text/css" rel="stylesheet"/>
+<link href="app.css" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
 
 </head>
 
 <body>
-	<p class="p_logo">
-		Book Exchange
-	</p>
-	<form action="login.php" method="POST">
+	<div class="logo">
+		<h3>Book Exchange</h3>
 
-		<table align="center" border="2">
-			<tr>
-				<td>
-					Email
-				</td>
-				<td>
-					<input type="text" name="email">
-				</td>
-			</tr>
+	</div>
 
-			<tr>
-				<td>
-					password
-				</td>
-				<td>
-					<input type="password" name="password">
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="submit" value="submit">
-				</td>
-			</tr>
-			
-		</table>
-	</form>
+	<div class="container">
+		<form action="login.php" method="POST">
+			<table>
+				<tr>
+					<td>
 
-	<p align="center">
-		<a href="enroll.php">New User Enroll</a>
-	</p>
+						<label class="labels" for="email">Email</label>
+					</td>
+
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+
+						<label class="labels" for="pass">Password</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="password" name="password">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button type="submit">Submit</button>
+					</td>
+				</tr>
+				
+			</table>
+		</form>
+		
+	</div>
+
+	<div class="container">
+		<a class="login-anchor" href="enroll.php">New User Enroll</a>
+
+	</div>
+	
 
 </body>
 </html>
