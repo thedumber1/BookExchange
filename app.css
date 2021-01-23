@@ -1,15 +1,21 @@
 body{
     font-family: Nunito, sans-serif;
     background-color: #0e1b2f;
+    color: aliceblue;
 }
 .container{
     display: flex;
     justify-content: center;
+    color: aliceblue;
+    margin-bottom: 1em;
 }
 .logo{
-    color: aliceblue;
     text-align: center;
     font-size: 36px;
+}
+.box{
+    display: flex;
+    justify-content: center;
 }
 
 input{
@@ -27,41 +33,38 @@ form{
 }
 
 label{
-    color: white;
     display: block;
     text-align: left;
     margin: 0.6rem 1.6rem 0; 
 }
 
 table{
-    padding: 15px 10px;
+    /* padding: 15px 10px; */
+    padding: 1rem 0.5rem;
     width: 100%;
 }
 
 button{
+    color: aliceblue;
     width: 83%;
     background-color: #3939e0;
     border: 1px solid #3939e0;
     padding: 0.5rem 1.2rem;
     transition: all 0.25s;
     margin: 0.6rem 0;
-    color: white;
     box-shadow: 0 0.5em 0.5em -0.4em #0e1b2f;
     border-radius: 5px;
-
-
 }
 button:hover{
     background-color: #1d1ddb;
-    /* border-color: #6257f6; */
     box-shadow: 0 0.5em 0.5em -0.4em #0e1b2f;
-    /* transform: translateY(-0.25em); */
     cursor: pointer;
 }
 
+
 .login-anchor{
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 1em;
     color: #3939e0;
 }
 
