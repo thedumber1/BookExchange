@@ -11,6 +11,11 @@ body{
     color: aliceblue;
     margin-bottom: 1em;
 }
+
+.sellForm{
+    width: 130%;
+}
+
 .container-round{
     display: flex;
     justify-content: center;
@@ -28,13 +33,55 @@ body{
     justify-content: center;
 }
 
-
-
 input{
     width: 80%;
     height: 30px;
     border-radius: 5px;
 }
+.sellTable input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="file"]{
+    display: inline;
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+#file_css{
+    display: inline;
+    margin: 0;
+    position: relative;
+    /* left: 5rem;
+    top: 0.5rem; */
+}
+input[type="file"] + #input_css{
+
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+input[type="file"]:focus + #file_css, input[type="file"] + #file_css:hover{
+    color: #3939e0;
+    transition: all 0.25s;
+
+}
+
+input[type="file"]:focus + #file_css{
+    outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+input[type="file"] + #file_css{
+    cursor: pointer; /* "hand" cursor */
+
+}
+
 
 form{
     width: 300px;
@@ -42,19 +89,31 @@ form{
     border: 1px solid #172c4b;
     background-color: #172c4b;
     border-radius: 5%;
-    text-align: center;    
+    text-align: center;  
+      
 }
 
 label{
+    display: flex;
     text-align: left;
     margin: 0.6rem 1.6rem 0; 
+}
+
+.sellForm label{
+    margin: 0;
+}
+.sellForms td{
+    /* margin: 0; */
+    width: 10%;
 }
 
 table{
     padding: 1rem 0.5rem;
     width: 100%;
 }
-
+.sellButton{
+    width: 90%;
+}
 
 .shop-results{
     border-collapse: collapse;
@@ -137,6 +196,9 @@ button:hover{
 }
 .round{
     border-radius: 10px;
+}
+.clock{
+    margin: 0 10px;
 }
 
 
