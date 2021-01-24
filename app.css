@@ -2,6 +2,7 @@ body{
     font-family: Nunito, sans-serif;
     background-color: #0e1b2f;
     color: aliceblue;
+    
 }
 
 .container{
@@ -27,6 +28,8 @@ body{
     justify-content: center;
 }
 
+
+
 input{
     width: 80%;
     height: 30px;
@@ -43,13 +46,12 @@ form{
 }
 
 label{
-    display: block;
+    display: ;
     text-align: left;
     margin: 0.6rem 1.6rem 0; 
 }
 
 table{
-    /* padding: 15px 10px; */
     padding: 1rem 0.5rem;
     width: 100%;
 }
@@ -87,7 +89,6 @@ button:hover{
     box-shadow: 0 0.5em 0.5em -0.4em #0e1b2f;
     cursor: pointer;
 }
-
 
 .login-anchor{
     text-decoration: none;
@@ -142,6 +143,7 @@ button:hover{
 .li_css{
     /* border-right: 1px solid #0F6; */
 }
+
 
 
 
