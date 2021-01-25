@@ -14,17 +14,32 @@ body{
 
 .sellForm{
     width: 35%;
+    background-color: #172c4b;
+    border: 1px solid #172c4b;
 }
 .sellTable{
-    /* display: flex;
-    justify-content: center; */
     margin: auto;
     width: 100%;
 }
 
 .sellContainer{
-
     width: 100%;
+}
+
+.searchForm{
+    margin: auto;
+    width: 20%;
+}
+.searchForm input{
+    text-align: right;
+    display: inline-block;
+    width: 55%;
+
+}
+
+.searchLabel{
+    display: inline-block;
+    width: 25%;
 }
 .container-round{
     display: flex;
@@ -67,11 +82,6 @@ input[type="file"]{
 	z-index: -1;
 }
 
-/* .bi{
-    margin-right: 8px;
-    margin-left: 8px;
-} */
-
 #file_css{
     display: flex;
     height: 100%;
@@ -107,16 +117,17 @@ input[type="file"] + #file_css{
 }
 
 
-form{
+.loginForm{
     width: 300px;
-    max-width: 700px;
-    border: 1px solid #172c4b;
     background-color: #172c4b;
-    border-radius: 50px;
+    border: 1px solid #172c4b;
+}
+form{
+    max-width: 700px;
     text-align: center;       
 }
 
-label{
+.loginForm label{
     display: flex;
     text-align: left;
     margin: 0.6rem 1.6rem 0; 
@@ -201,13 +212,11 @@ button:hover{
 .nav-right{
     display: flex;
     justify-content: flex-end;
-    /* padding-left: 100px; */
     width: 40%;
 }
 
 .li_css_a{
     display: block;
-    /* color: #FF0; */
     color: aliceblue;
     padding: 14px 16px;
     text-decoration: none;
@@ -218,7 +227,7 @@ button:hover{
     height: 20px;
 }
 .round{
-    border-radius: 10px;
+    border-radius: 50px;
 }
 .clock{
     margin-right: 10px;

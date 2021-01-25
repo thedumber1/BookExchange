@@ -8,24 +8,16 @@
     <?php
         include("main_menu.php");
     ?>
-        <h1 align="center">
-            Book Search
-        </h1>
-    <form align="center" action="search_results.php" method="post">
-        <table align="center">
-            <tr>
-                <td>
-                    Book Title
-                </td>
-                <td>
-                    <input type="text" name="search">
-                    <input type="submit" value="Search">
-                </td>
-            </tr>
-            
-
-        </table>
-    </form>
+    <div class="container">
+        <h1> Book Search </h1>
+    </div>
+    <div class="container">
+        <form class="searchForm" action="search_results.php" method="post">
+            <label class="searchLabel" for="search">Book Title</label>
+            <input type="text" name="search">
+            <button>Search</button>
+        </form>
+    </div>
     
 </body>
 </html>

@@ -15,7 +15,7 @@
             <a class="li_css_a" href="shopping.php">Shop</a>
         </li>
         <li class="li_css">
-            <a class="li_css_a" href="selling.php">Selling</a>
+            <a class="li_css_a" href="selling.php">Sell</a>
         </li>
         <li class="li_css">
             <a class="li_css_a" href="mybooks.php">My Books</a>

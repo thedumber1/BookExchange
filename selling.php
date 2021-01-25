@@ -15,7 +15,7 @@
 	</div>
 
 	<div class="container sellContainer">
-		<form class="sellForm" action="sellingInsert.php" enctype="multipart/form-data" method="post">	
+		<form class="sellForm round" action="sellingInsert.php" enctype="multipart/form-data" method="post">	
 			<table class="sellTable">
 				<tr>
 					<td>

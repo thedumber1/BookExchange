@@ -27,9 +27,7 @@
         </h2>
         <table align="center">
             <tr>
-                <td>
-                    Book Title
-                </td>
+                <td>Book Title</td>
                 <td>
                     <input type="text" name="search">
                     <input type="submit" value="Search">
