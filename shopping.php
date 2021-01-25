@@ -20,7 +20,7 @@
     ?>
 
     <div class="container">
-        <table class="shop-results">
+        <table class="tableResults">
             <tr>
                 <th>Seller Email</th>
                 <th>Book Name</th>

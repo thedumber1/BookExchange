@@ -13,9 +13,19 @@ body{
 }
 
 .sellForm{
-    width: 130%;
+    width: 35%;
+}
+.sellTable{
+    /* display: flex;
+    justify-content: center; */
+    margin: auto;
+    width: 100%;
 }
 
+.sellContainer{
+
+    width: 100%;
+}
 .container-round{
     display: flex;
     justify-content: center;
@@ -39,9 +49,14 @@ input{
     border-radius: 5px;
 }
 .sellTable input{
-    width: 100%;
+    width: 80%;
     margin-bottom: 10px;
 }
+/* .sellTable td:nth-of-type(1){
+    display: flex;
+    justify-content: flex-end;
+
+} */
 input[type="file"]{
     display: inline;
     width: 0.1px;
@@ -51,25 +66,35 @@ input[type="file"]{
 	position: absolute;
 	z-index: -1;
 }
+
+/* .bi{
+    margin-right: 8px;
+    margin-left: 8px;
+} */
+
 #file_css{
-    display: inline;
-    margin: 0;
-    position: relative;
-    /* left: 5rem;
-    top: 0.5rem; */
+    display: flex;
+    height: 100%;
+    background-color: #33b464;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.sellTable div{
+    height: 30px;
 }
 input[type="file"] + #input_css{
-
     font-size: 1.25em;
     font-weight: 700;
-    color: white;
+    color: aliceblue;
     background-color: black;
     display: inline-block;
 }
 input[type="file"]:focus + #file_css, input[type="file"] + #file_css:hover{
-    color: #3939e0;
+    background-color: #258349;
     transition: all 0.25s;
-
 }
 
 input[type="file"]:focus + #file_css{
@@ -79,7 +104,6 @@ input[type="file"]:focus + #file_css{
 
 input[type="file"] + #file_css{
     cursor: pointer; /* "hand" cursor */
-
 }
 
 
@@ -88,9 +112,8 @@ form{
     max-width: 700px;
     border: 1px solid #172c4b;
     background-color: #172c4b;
-    border-radius: 5%;
-    text-align: center;  
-      
+    border-radius: 50px;
+    text-align: center;       
 }
 
 label{
@@ -100,10 +123,10 @@ label{
 }
 
 .sellForm label{
-    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 .sellForms td{
-    /* margin: 0; */
     width: 10%;
 }
 
@@ -112,22 +135,22 @@ table{
     width: 100%;
 }
 .sellButton{
-    width: 90%;
+    width: 80%;
 }
 
-.shop-results{
+.tableResults{
     border-collapse: collapse;
     margin-top: 1em;
     width: 60%;
     text-align: center;
 }
-.shop-results td{
+.tableResults td{
     border: 1px solid black;
 }
-.shop-results th{
+.tableResults th{
     padding: 20px 0;
 }
-.shop-results tr:hover{
+.tableResults tr:hover{
     background-color: #18184b;
 }
 
@@ -198,7 +221,7 @@ button:hover{
     border-radius: 10px;
 }
 .clock{
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 

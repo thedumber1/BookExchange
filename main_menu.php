@@ -9,7 +9,10 @@
 <div class="navbar">
     <ul class="ul_css">
         <li class="li_css">
-            <a class="li_css_a" href="shopping.php">Shopping</a>
+            <a class="li_css_a" href="main.php">Home</a>
+        </li>
+        <li class="li_css">
+            <a class="li_css_a" href="shopping.php">Shop</a>
         </li>
         <li class="li_css">
             <a class="li_css_a" href="selling.php">Selling</a>
