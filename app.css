@@ -22,19 +22,19 @@ body{
     width: 100%;
 }
 
-.sellContainer{
-    width: 100%;
-}
-
 .searchForm{
+    height: 100px;
     margin: auto;
     width: 20%;
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: #172c4b;
+    border: 1px solid #172c4b;
 }
 .searchForm input{
     text-align: right;
     display: inline-block;
     width: 55%;
-
 }
 
 .searchLabel{
@@ -67,11 +67,7 @@ input{
     width: 80%;
     margin-bottom: 10px;
 }
-/* .sellTable td:nth-of-type(1){
-    display: flex;
-    justify-content: flex-end;
 
-} */
 input[type="file"]{
     display: inline;
     width: 0.1px;
@@ -89,11 +85,14 @@ input[type="file"]{
     width: 50%;
     border-radius: 10px;
     margin-left: 30px;
+    padding-right: 10px;
     align-items: center;
 }
 
 .sellTable div{
+    font-size: 0.9rem;
     height: 30px;
+    width: 80%;
 }
 input[type="file"] + #input_css{
     font-size: 1.25em;

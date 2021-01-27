@@ -12,7 +12,7 @@
         <h1> Book Search </h1>
     </div>
     <div class="container">
-        <form class="searchForm" action="search_results.php" method="post">
+        <form class="searchForm round" action="search_results.php" method="post">
             <label class="searchLabel" for="search">Book Title</label>
             <input type="text" name="search">
             <button>Search</button>
